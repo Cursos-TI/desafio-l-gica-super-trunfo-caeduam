@@ -100,40 +100,35 @@ int main() {
 
     // Exemplo:
     if (populacao1 > populacao2) {
-        printf("Mogi tem a maior população.\n");
+        printf("Vencedor critério população: Carta1 Mogi.\n");
     }else {
-        printf("Angra tem a maior população.\n"); }
+        printf("Vencedor critério população: Carta2 Angra.\n"); }
 
-    if (areakm1 > areakm2) {
-        printf("Mogi tem a maior área.\n");
-    }else {
-        printf("Angra tem a maior área.\n"); }
+    //if (areakm1 > areakm2) {
+    //    printf("Mogi tem a maior área.\n");
+    //}else {
+    //    printf("Angra tem a maior área.\n"); }
 
-    if (pib1 > pib2) {
-        printf("Mogi tem o maior Pib.\n");
-    }else {
-        printf("Angra tem o maior Pib.\n"); }
+    //if (pib1 > pib2) {
+    //    printf("Mogi tem o maior Pib.\n");
+    //}else {
+    //    printf("Angra tem o maior Pib.\n"); }
 
-    if (pontosturisticos1 > pontosturisticos2) {
-        printf("Mogi tem mais pontos turísticos.\n");
-    }else {
-        printf("Angra tem mais pontos turísticos.\n"); }
+    //if (pontosturisticos1 > pontosturisticos2) {
+    //    printf("Mogi tem mais pontos turísticos.\n");
+    //}else {
+    //    printf("Angra tem mais pontos turísticos.\n"); }
 
-    if (densidadepopul1 < densidadepopul2) {
-        printf("Mogi tem a menor densidade demográfica.\n");
-    }else {
-        printf("Angra tem a menor densidade demográfica.\n"); }
+    //if (densidadepopul1 < densidadepopul2) {
+    //    printf("Mogi tem a menor densidade demográfica.\n");
+    //}else {
+    //    printf("Angra tem a menor densidade demográfica.\n"); }
 
-    if (pibpercapita1 > pibpercapita2) {
-        printf("Mogi tem o maior Pib Per Capita.\n");
-    }else {
-        printf("Angra tem o maior Pib Per Capita.\n"); }
-
-    if (superpoder1 > superpoder2) {
-        printf("Mogi tem o maior Super Poder.\n");
-    }else {
-        printf("Angra tem o maior Super Poder.\n");
-     }
+    //if (pibpercapita1 > pibpercapita2) {
+    //    printf("Mogi tem o maior Pib Per Capita.\n");
+    //}else {
+    //    printf("Angra tem o maior Pib Per Capita.\n"); }
+    
 
     // Exibição dos Resultados:
     // Após realizar as comparações, exiba os resultados para o usuário.
