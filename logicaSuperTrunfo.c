@@ -17,8 +17,8 @@ int main() {
     float areakm1 = 725;
     double pib1 = 19000000000;
     int pontosturisticos1 = 4;
-    float densidadepopul1 = (float) populacao1 / areakm1;
-    float pibpercapita1 = (float) pib1 / populacao1;
+    float densidadepopul1 = populacao1 / areakm1;
+    float pibpercapita1 = pib1 / populacao1;
     double superpoder1 = populacao1 + areakm1 + pib1 + pontosturisticos1 + pibpercapita1 + densidadepopul1;
     
     //inserir informações da carta 2
@@ -29,8 +29,8 @@ int main() {
     float areakm2 = 813;
     double pib2 = 11000000000;
     int pontosturisticos2 = 8;
-    float densidadepopul2 = (float) populacao2 / areakm2;
-    float pibpercapita2 = (float) pib2 / populacao2;
+    float densidadepopul2 = populacao2 / areakm2;
+    float pibpercapita2 = pib2 / populacao2;
     double superpoder2 = populacao2 + areakm2 + pib2 + pontosturisticos2 + pibpercapita2 + densidadepopul2;
     
     // Cadastro das Cartas:
@@ -57,7 +57,7 @@ int main() {
     scanf("%s", cidade1);
     
     printf("Digite a população da cidade1: ");
-    scanf("%d", &populacao1);
+    scanf("%f", &populacao1);
     
     printf("Digite a área da cidade1: ");
     scanf("%f", &areakm1);
@@ -68,7 +68,11 @@ int main() {
     printf("Digite o nº de pontos turísticos da cidade1: ");
     scanf("%d", &pontosturisticos1);
 
-    printf("Super Poder Carta1 é: %lf\n", &superpoder1);
+    printf("Densidade demográfica da cidade1 é %.0f\n", densidadepopul1);
+
+    printf("Pib per capita da cidade1 é: %.2f\n", pibpercapita1);
+
+    printf("Super Poder Carta1 é: %.0lf\n", superpoder1);
            
 //inserir a lógica para responder os requisitos da carta2
     printf("\nCarta 2: Digite os dados da carta 2 conforme for solicitado.\n");
@@ -94,7 +98,11 @@ int main() {
     printf("Digite o nº de pontos turísticos da cidade2: ");
     scanf("%d", &pontosturisticos2);
     
-    printf("Super Poder Carta2 é: %lf\n", &superpoder2);
+    printf("Densidade demográfica da cidade2 é %.0f\n", densidadepopul2);
+
+    printf("Pib per capita da cidade2 é: %.2f\n", pibpercapita2);
+
+    printf("Super Poder Carta2 é: %.0lf\n", superpoder2);
 
     printf("\n");
     
