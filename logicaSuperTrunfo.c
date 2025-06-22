@@ -68,6 +68,7 @@ int main() {
     printf("Digite o nº de pontos turísticos da cidade1: ");
     scanf("%d", &pontosturisticos1);
 
+    printf("Super Poder Carta1 é: %lf\n", &superpoder1);
            
 //inserir a lógica para responder os requisitos da carta2
     printf("\nCarta 2: Digite os dados da carta 2 conforme for solicitado.\n");
@@ -92,6 +93,9 @@ int main() {
     
     printf("Digite o nº de pontos turísticos da cidade2: ");
     scanf("%d", &pontosturisticos2);
+    
+    printf("Super Poder Carta2 é: %lf\n", &superpoder2);
+
     printf("\n");
     
     // Comparação de Cartas:
