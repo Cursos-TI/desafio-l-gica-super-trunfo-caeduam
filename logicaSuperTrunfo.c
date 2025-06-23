@@ -53,26 +53,26 @@ int main() {
     printf("Digite o código da carta1: ");
     scanf("%s", codigocarta1);
     
-    printf("Digite o nome da cidade1: ");
+    printf("Digite o nome da cidade da carta1: ");
     scanf("%s", cidade1);
     
-    printf("Digite a população da cidade1: ");
-    scanf("%f", &populacao1);
+    printf("Digite a população da cidade da carta1: ");
+    scanf("%lu", &populacao1);
     
-    printf("Digite a área da cidade1: ");
+    printf("Digite a área da cidade da carta1: ");
     scanf("%f", &areakm1);
     
-    printf("Digite o valor do pib da cidade1: ");
+    printf("Digite o valor do pib da cidade da carta1: ");
     scanf("%lf", &pib1);
     
-    printf("Digite o nº de pontos turísticos da cidade1: ");
+    printf("Digite o nº de pontos turísticos da cidade da carta1: ");
     scanf("%d", &pontosturisticos1);
 
-    printf("Densidade demográfica da cidade1 é %.0f\n", densidadepopul1);
+    printf("Densidade demográfica da cidade da carta1: %.0f hab/km²\n", densidadepopul1);
 
-    printf("Pib per capita da cidade1 é: %.2f\n", pibpercapita1);
+    printf("Pib per capita da cidade da carta1: R$ %.2f\n", pibpercapita1);
 
-    printf("Super Poder Carta1 é: %.0lf\n", superpoder1);
+    printf("Super Poder da carta1: %.0lf pontos\n", superpoder1);
            
 //inserir a lógica para responder os requisitos da carta2
     printf("\nCarta 2: Digite os dados da carta 2 conforme for solicitado.\n");
@@ -83,26 +83,26 @@ int main() {
     printf("Digite o código da carta2: ");
     scanf("%s", codigocarta2);
     
-    printf("Digite o nome da cidade2: ");
+    printf("Digite o nome da cidade da carta2: ");
     scanf("%s", cidade2);
     
-    printf("Digite a população da cidade2: ");
-    scanf("%d", &populacao2);
+    printf("Digite a população da cidade da carta2: ");
+    scanf("%lu", &populacao2);
     
-    printf("Digite a área da cidade2: ");
+    printf("Digite a área da cidade da carta1: ");
     scanf("%f", &areakm2);
     
-    printf("Digite o valor do pib da cidade2: ");
+    printf("Digite o valor do pib da cidade da carta1: ");
     scanf("%lf", &pib2);
     
-    printf("Digite o nº de pontos turísticos da cidade2: ");
+    printf("Digite o nº de pontos turísticos da cidade da carta2: ");
     scanf("%d", &pontosturisticos2);
     
-    printf("Densidade demográfica da cidade2 é %.0f\n", densidadepopul2);
+    printf("Densidade demográfica da cidade da carta2: %.0f hab/km²\n", densidadepopul2);
 
-    printf("Pib per capita da cidade2 é: %.2f\n", pibpercapita2);
+    printf("Pib per capita da cidade da carta2: R$ %.2f\n", pibpercapita2);
 
-    printf("Super Poder Carta2 é: %.0lf\n", superpoder2);
+    printf("Super Poder carta2: %.0lf pontos\n", superpoder2);
 
     printf("\n");
     
@@ -116,10 +116,10 @@ int main() {
     }else {
         printf("Vencedor critério população: Carta2 Angra.\n"); }
 
-    //if (areakm1 > areakm2) {
-    //    printf("Mogi tem a maior área.\n");
-    //}else {
-    //    printf("Angra tem a maior área.\n"); }
+    if (areakm1 > areakm2) {
+        printf("Vencedor critério área: Carta1 Mogi.\n");
+    }else {
+        printf("Vencedor critério área: Carta2 Angra.\n"); }
 
     //if (pib1 > pib2) {
     //    printf("Mogi tem o maior Pib.\n");
